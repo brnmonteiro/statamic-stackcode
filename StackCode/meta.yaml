@@ -1,0 +1,6 @@
+name: StackCode
+version: "1.0"
+description: An add-on for Statamic which allows you to stack block os codes at specific positions
+url: https://github.com/brnmonteiro/statamic-stackcode
+developer: Bruno Monteiro
+developer_url: https://github.com/brnmonteiro
