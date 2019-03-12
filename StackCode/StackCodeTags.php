@@ -36,18 +36,18 @@ class StackCodeTags extends Tags
     public function dump()
     {
         if ($this->getParam('dump') == 'footer') {
-            return $this->dump_footer();
+            return $this->dumpFooter();
         }
         
-        return $this->dump_header();
+        return $this->dumpHeader();
     }
     
-    public function dump_header()
+    public function dumpHeader()
     {
         return implode(PHP_EOL, self::$header);
     }
 
-    public function dump_footer()
+    public function dumpFooter()
     {
         return implode(PHP_EOL, self::$footer);
     }
